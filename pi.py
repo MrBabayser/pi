@@ -12,7 +12,7 @@ from sympy import pi # pour gérer le nombre pi
 import datetime # pour gérer les dates
 
 def trouve_date(date, texte) :
-  st.text("Rercherche de la date " + date)
+  st.text("Rercherche de la date " + date + "...")
   return texte.find(date)
 
 def affiche_resultat(date, resultat) :
