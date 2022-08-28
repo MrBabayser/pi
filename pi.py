@@ -65,7 +65,7 @@ st.header("Dans un autre champ texte, calculez la somme des 20 premières décim
 vdecpi = nbpi[2:22] # 20 premières décimales de PI
 st.text("Les 20 premières décimales de PI sont " + vdecpi)
 st.text("La somme des 20 premières décimales de PI est " + str(somme_texte(vdecpi)))
-st.text("La somme des 12² premières décimales de PI est " + str(somme_texte(nbpi[2:12**2])))
+st.text("La somme des 12² premières décimales de PI est " + str(somme_texte(nbpi[2:12**2+2])))
 
 st.title("Consigne 4")
 st.header("Insérez dans votre application une vidéo prise en ligne qui montre que la somme de tous les nombres entiers naturels est égal à -1/12.")
